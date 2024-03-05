@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>My First sign up Page</title>
+    <style>
+        body{
+            font-size: 10px;
+            background-color: #80BCBD;
+        }
+        .c{ 
+            
+            position:relative;
+            top:30px;
+            left:200px;
+            display:inline-block;
+            border:5px solid #030637;
+            border-radius:15px;
+            padding:20px;
+        }
+        .submit{
+            position:relative;
+            left:55px;
+            padding:10px;
+            border-radius:5px;
+            background-color:#0A1D56;
+            border:none;
+            color: white;
+            font-size: 8px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="c">
+            <h2>Sign up wih RK Web Services</h2>
+            <form action="">
+                <div class="email">
+                    <label for="Email">email</label>
+        <br/>
+                <input class="field" type="email" id="Email"placeholder="name@business.com" height="20px"><br/>
+                </div>
+                <div class="password">
+                    <label for="password">password</label><br/>
+                <input class="field" type="password" id="password" placeholder="type atleast 8 characters">
+                </div>
+                <p>Already have an account? <a href="">Sign in</a></p>
+                <label for="check"></label>
+                <input class="checkbox" type="checkbox" id="check">
+                   By clicking this you agree to all the <a href="">terms</a> & <a href="">policies</a>.<br/><br/>
+                <label for="sub"></label>
+                <a href=""><input class="submit" type="submit" id="sub" value="Create Account"> </a>
+            </form>
+        </div>
+    </body>
+</html>
